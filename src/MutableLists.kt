@@ -12,7 +12,7 @@ fun main() {
     println(things.first())
     println(things.last())
     println(things.size)
-    println(things.contains("Bed")) //boolean true/falses
+    println(things.contains("Bed")) //boolean true/false
     println(things.indexOf("Bed"))
 
     val nullArr = arrayOfNulls<String>(5)
