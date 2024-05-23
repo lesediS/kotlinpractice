@@ -15,7 +15,19 @@ fun main() {
         --num1
     }
 
+    println()
+
     val thing = "chocolate"
-    val index = thing.length - 1
-//TODO: 3:17:32
+/*    var index = thing.length - 1 //Prints in reverse
+    while (index >= 0) {
+        println("\nLetter: ${thing[index]}")
+        --index
+    }
+ */
+    var index = 0
+
+    while (index <= thing.length - 1) {
+        println("Letter: ${thing[index]}")
+        ++index
+    }
 }
